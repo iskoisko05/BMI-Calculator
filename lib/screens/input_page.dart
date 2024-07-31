@@ -122,7 +122,7 @@ class _InputPageState extends State<InputPage> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text(
+                            const Text(
                               "WEIGHT",
                               style: kLabelTextStyle,
                             ),
@@ -161,7 +161,7 @@ class _InputPageState extends State<InputPage> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text(
+                            const Text(
                               "AGE",
                               style: kLabelTextStyle,
                             ),
