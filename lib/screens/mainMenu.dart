@@ -2,6 +2,7 @@ import 'package:bmi_calculator/componants/constans.dart';
 import 'package:flutter/material.dart';
 import 'package:bmi_calculator/screens/input_page.dart';
 import 'package:bmi_calculator/componants/ReusableCard.dart';
+// ignore: unused_import
 import 'package:flutter_launcher_icons/constants.dart';
 
 class mainMenu extends StatefulWidget {
@@ -11,6 +12,7 @@ class mainMenu extends StatefulWidget {
   State<mainMenu> createState() => _mainMenuState();
 }
 
+// ignore: camel_case_types
 class _mainMenuState extends State<mainMenu> {
   Color startColor = kIdealButtonsColor;
   Color unitColor = kIdealButtonsColor;
